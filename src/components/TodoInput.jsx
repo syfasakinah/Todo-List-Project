@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const TodoInput = ({ addTodo }:any) => {
+const TodoInput = ({ addTodo }) => {
   const [input, setInput] = useState('');
 
   const handleSubmit = (e) => {
